@@ -53,6 +53,20 @@ body {
   min-height: 300px;
 }
 
+.section__footer_top {
+  width: 100%;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
 .header {
   width: 100%;
   background-color: white;
@@ -411,5 +425,72 @@ body {
 
 .card_popular__info--button button:hover {
   cursor: pointer;
+}
+
+.card_services {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  width: 298px;
+  height: 250px;
+  border: 2px solid #ffffff;
+  margin: 5px;
+}
+
+.card_services:hover {
+  background-color: #ffffff;
+  cursor: pointer;
+}
+
+.card_services__image {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 35px;
+}
+
+.card_services__headline {
+  font-family: GothamPro-Bold;
+  font-size: 15px;
+  text-align: center;
+  margin-top: -40px;
+  text-decoration: underline;
+}
+
+.footer {
+  width: 100%;
+}
+
+.footer__top {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 100%;
+  height: 515px;
+  background-image: url("./img/background-footer.png");
+}
+
+.footer__bottom {
+  width: 100%;
+  height: 195px;
+  background-color: #000000;
+}
+
+.contact_card {
+  height: 360px;
+  width: 380px;
+  background-color: #ffffff;
 }
 /*# sourceMappingURL=style.css.map */

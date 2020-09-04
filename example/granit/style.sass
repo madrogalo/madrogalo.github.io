@@ -39,6 +39,12 @@ body
         &item
           width: 940px
           min-height: 300px
+    &footer_top
+      width: 100%
+      height: 100%
+      display: flex
+      justify-content: flex-end
+      align-items: center
 
 .header
   width: 100%
@@ -262,3 +268,46 @@ body
             padding: 14px 45px
             &:hover
               cursor: pointer
+
+.card_services
+  display: flex
+  flex-direction: column
+  justify-content: space-around
+  width: 298px
+  height: 250px
+  border: 2px solid #ffffff
+  margin: 5px
+  &:hover
+    background-color: $white
+    cursor: pointer
+  &__
+    &image
+      display: flex
+      justify-content: center
+      margin-top: 35px
+    &headline
+      font-family: $GothamPro-Bold
+      font-size: 15px
+      text-align: center
+      margin-top: -40px  
+      text-decoration: underline
+
+.footer
+  width: 100%
+  &__
+    &top
+      display: flex
+      justify-content: center
+      width: 100%
+      height: 515px
+      background-image: url('./img/background-footer.png')
+    &bottom
+      width: 100%
+      height: 195px
+      background-color: $black
+
+.contact_card
+  height: 360px
+  width: 380px
+  background-color: $white
+
