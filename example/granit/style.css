@@ -1,0 +1,415 @@
+html {
+  font-family: GothamPro;
+}
+
+body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: #ffffff;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: end;
+  background-color: #ffffff;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.section {
+  width: 940px;
+  color: #000000;
+  z-index: 2;
+}
+
+.section__full {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  z-index: 1;
+}
+
+.section__full.slider {
+  background-image: url("./img/slider.jpg");
+  width: 100%;
+  height: 550px;
+  margin-top: -28px;
+}
+
+.section__full.gray_background {
+  background-color: #f4f4f4;
+}
+
+.section__full--item {
+  width: 940px;
+  min-height: 300px;
+}
+
+.header {
+  width: 100%;
+  background-color: white;
+}
+
+.header__top {
+  height: 100px;
+  width: 100%;
+  background-color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.header__left {
+  width: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.header__right {
+  width: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+.header__right--contact {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-item-align: center;
+      align-self: center;
+  margin-right: 30px;
+}
+
+.header__right--tel {
+  font-family: GothamPro-Bold;
+  font-size: 18px;
+  line-height: 22px;
+  font-weight: bold;
+  color: #000000;
+  text-decoration: none;
+  text-align: end;
+}
+
+.header__right--subheadline {
+  font-family: GothamPro-Medium;
+  color: #969696;
+  font-size: 11px;
+}
+
+.header__right--button {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-item-align: center;
+      align-self: center;
+}
+
+.header__right--button button {
+  color: #000000;
+  border: 2px solid #000000;
+  font-size: 12px;
+  font-family: GothamPro-Medium;
+  background-color: #ffffff;
+  padding: 10px 20px 10px 24px;
+  cursor: pointer;
+}
+
+.header__buttom {
+  height: 60px;
+  background-color: #ffcc00;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.header__buttom--link {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-item-align: center;
+      align-self: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.header__buttom--link a {
+  font-size: 14px;
+  font-family: GothamPro-Medium;
+  color: #000000;
+  text-decoration: none;
+}
+
+.headline {
+  font-family: GothamPro-Bold;
+  font-size: 20px;
+  text-align: center;
+  text-transform: uppercase;
+  margin: 75px;
+}
+
+.block {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 75px;
+}
+
+.card {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  width: 298px;
+  height: 468px;
+  border: 2px solid #f6f6f6;
+  margin: 5px;
+}
+
+.card__image img {
+  width: 100%;
+}
+
+.card__info {
+  margin-top: -20px;
+}
+
+.card__info--headline {
+  font-family: GothamPro-Bold;
+  font-size: 15px;
+  text-align: center;
+}
+
+.card__info--descr {
+  font-family: GothamPro-Light;
+  font-size: 13px;
+  text-align: center;
+  padding: 13px;
+}
+
+.card__info--price {
+  font-family: GothamPro-Bold;
+  font-size: 16px;
+  text-align: center;
+}
+
+.card__info--button {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding-bottom: 15px;
+}
+
+.card__info--button button {
+  background-color: #ffcc00;
+  border: none;
+  font-family: GothamPro-Bold;
+  font-size: 14px;
+  padding: 14px 45px;
+}
+
+.card__info--button button:hover {
+  cursor: pointer;
+}
+
+.card_advantage {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  width: 298px;
+  height: 250px;
+  border: 2px solid #ffffff;
+  margin: 5px;
+}
+
+.card_advantage:hover {
+  background-color: #ffffff;
+  cursor: pointer;
+}
+
+.card_advantage__image {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 35px;
+}
+
+.card_advantage__image img {
+  width: 50px;
+}
+
+.card_advantage__headline {
+  font-family: GothamPro-Bold;
+  font-size: 15px;
+  text-align: center;
+  margin-top: 10px;
+}
+
+.card_advantage__descr {
+  font-family: GothamPro;
+  font-size: 12px;
+  line-height: 18px;
+  text-align: center;
+  padding: 0px 18px 13px 18px;
+  margin-bottom: 28px;
+}
+
+.granit_bg {
+  background-image: url("./img/granit.png");
+}
+
+.granitsheben_bg {
+  background-image: url("./img/granit-sheben.png");
+}
+
+.granit-sheben05_bg {
+  background-image: url("./img/granit-sheben05.png");
+}
+
+.granit-sheben0520 {
+  background-image: url("./img/granit-sheben0520.png");
+}
+
+.card_popular {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  width: 214px;
+  height: 341px;
+  border: 2px solid #f6f6f6;
+  margin: 5px;
+}
+
+.card_popular__image {
+  height: 155px;
+  width: 180px;
+  margin: 17px 17px 0px 17px;
+}
+
+.card_popular__image--promo {
+  font-family: GothamPro-Medium;
+  font-size: 10px;
+  color: #ffffff;
+  width: 40px;
+  background-color: red;
+  padding: 8px 8px;
+  margin: 10px;
+}
+
+.card_popular__price {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 0px 17px 17px 17px;
+}
+
+.card_popular__price--firt {
+  font-size: 16px;
+  font-family: GothamPro-Bold;
+  width: 50%;
+}
+
+.card_popular__price--old {
+  font-size: 10px;
+  font-family: GothamPro-Medium;
+  width: 50%;
+  color: #979797;
+  text-decoration: line-through;
+  margin-left: 10px;
+}
+
+.card_popular__price--new {
+  font-size: 16px;
+  font-family: GothamPro-Bold;
+  width: 50%;
+  color: #ff0000;
+  margin-right: 10px;
+}
+
+.card_popular__info {
+  margin-top: -20px;
+}
+
+.card_popular__info--headline {
+  font-family: GothamPro-Bold;
+  font-size: 12px;
+  text-align: center;
+  margin: 17px;
+  text-decoration: underline;
+}
+
+.card_popular__info--button {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding-bottom: 15px;
+}
+
+.card_popular__info--button button {
+  background-color: #ffcc00;
+  border: none;
+  font-family: GothamPro-Bold;
+  font-size: 14px;
+  padding: 14px 45px;
+}
+
+.card_popular__info--button button:hover {
+  cursor: pointer;
+}
+/*# sourceMappingURL=style.css.map */

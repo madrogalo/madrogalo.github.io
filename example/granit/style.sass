@@ -1,0 +1,264 @@
+$GothamPro: GothamPro    
+$GothamPro-Light: GothamPro-Light
+$GothamPro-Medium: GothamPro-Medium
+$GothamPro-Bold: GothamPro-Bold
+$black: #000000
+$gray: #969696
+$white: #ffffff
+$yellow: #ffcc00
+
+html
+  font-family: $GothamPro
+
+body
+  display: flex
+  background-color: $white
+  justify-content: end
+  background-color: $white
+  flex-direction: column
+  align-items: center
+
+.section
+  width: 940px
+  color: $black
+  z-index: 2
+  &__
+    &full
+      width: 100%
+      display: flex
+      justify-content: center
+      z-index: 1
+      &.slider
+        background-image: url('./img/slider.jpg')
+        width: 100%
+        height: 550px
+        margin-top: -28px
+      &.gray_background
+            background-color: #f4f4f4
+      &--
+        &item
+          width: 940px
+          min-height: 300px
+
+.header
+  width: 100%
+  background-color: white
+  &__
+      &top
+        height: 100px
+        width: 100%
+        background-color: white
+        display: flex
+        justify-content: space-between
+      &left
+        width: 50%
+        display: flex
+      &right
+        width: 50%
+        display: flex
+        justify-content: flex-end
+        &--
+          &contact
+            display: flex
+            flex-direction: column
+            align-self: center
+            margin-right: 30px
+          &tel
+            font-family: $GothamPro-Bold
+            font-size: 18px
+            line-height: 22px
+            font-weight: bold
+            color: $black
+            text-decoration: none
+            text-align: end
+          &subheadline
+            font-family: $GothamPro-Medium
+            color: $gray
+            font-size: 11px
+          &button
+            display: flex
+            flex-direction: column
+            align-self: center
+            button
+              color: $black
+              border: 2px solid $black
+              font-size: 12px
+              font-family: $GothamPro-Medium
+              background-color: $white
+              padding: 10px 20px 10px 24px
+              cursor: pointer
+
+      &buttom
+        height: 60px
+        background-color: $yellow
+        display: flex
+        &--
+          &link
+            width: 100%
+            display: flex
+            align-self: center
+            justify-content: space-around
+            a
+              font-size: 14px
+              font-family: $GothamPro-Medium
+              color: $black
+              text-decoration: none
+
+.headline
+  font-family: $GothamPro-Bold
+  font-size: 20px
+  text-align: center
+  text-transform: uppercase
+  margin: 75px
+
+.block
+  display: flex
+  margin-bottom: 75px
+
+.card
+  display: flex
+  flex-direction: column
+  justify-content: space-around
+  width: 298px
+  height: 468px
+  border: 2px solid #f6f6f6
+  margin: 5px
+  &__
+    &image
+      img
+        width: 100%
+    &info
+      margin-top: -20px
+      &--
+        &headline
+          font-family: $GothamPro-Bold
+          font-size: 15px
+          text-align: center
+        &descr
+          font-family: $GothamPro-Light
+          font-size: 13px
+          text-align: center
+          padding: 13px
+        &price
+          font-family: $GothamPro-Bold
+          font-size: 16px
+          text-align: center
+        &button
+          display: flex
+          justify-content: center
+          padding-bottom: 15px
+          button
+            background-color: $yellow
+            border: none
+            font-family: $GothamPro-Bold
+            font-size: 14px
+            padding: 14px 45px
+            &:hover
+              cursor: pointer
+
+.card_advantage
+  display: flex
+  flex-direction: column
+  justify-content: space-around
+  width: 298px
+  height: 250px
+  border: 2px solid #ffffff
+  margin: 5px
+  &:hover
+    background-color: $white
+    cursor: pointer
+  &__
+    &image
+      display: flex
+      justify-content: center
+      margin-top: 35px
+      img
+        width: 50px
+    &headline
+      font-family: $GothamPro-Bold
+      font-size: 15px
+      text-align: center
+      margin-top: 10px
+    &descr
+      font-family: $GothamPro
+      font-size: 12px
+      line-height: 18px
+      text-align: center
+      padding: 0px 18px 13px 18px
+      margin-bottom: 28px
+
+.granit_bg
+  background-image: url('./img/granit.png')
+.granitsheben_bg
+  background-image: url('./img/granit-sheben.png')
+.granit-sheben05_bg
+  background-image: url('./img/granit-sheben05.png')
+.granit-sheben0520
+  background-image: url('./img/granit-sheben0520.png')
+
+.card_popular
+  display: flex
+  flex-direction: column
+  justify-content: space-around
+  width: 214px
+  height: 341px
+  border: 2px solid #f6f6f6
+  margin: 5px
+  &__
+    &image
+      height: 155px
+      width: 180px
+      margin: 17px 17px 0px 17px
+      &--
+        &promo
+          font-family: $GothamPro-Medium
+          font-size: 10px
+          color: $white
+          width: 40px
+          background-color: red
+          padding: 8px 8px
+          margin: 10px
+    &price
+      display: flex
+      justify-content: center
+      align-items: center
+      margin: 0px 17px 17px 17px
+      &--
+        &firt
+          font-size: 16px
+          font-family: $GothamPro-Bold
+          width: 50%
+        &old
+          font-size: 10px
+          font-family: $GothamPro-Medium
+          width: 50%
+          color: #979797
+          text-decoration: line-through
+          margin-left: 10px
+        &new
+          font-size: 16px
+          font-family: $GothamPro-Bold
+          width: 50%
+          color: #ff0000
+          margin-right: 10px
+    &info
+      margin-top: -20px
+      &--
+        &headline
+          font-family: $GothamPro-Bold
+          font-size: 12px
+          text-align: center
+          margin: 17px
+          text-decoration: underline
+        &button
+          display: flex
+          justify-content: center
+          padding-bottom: 15px
+          button
+            background-color: $yellow
+            border: none
+            font-family: $GothamPro-Bold
+            font-size: 14px
+            padding: 14px 45px
+            &:hover
+              cursor: pointer
