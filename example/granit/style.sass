@@ -309,6 +309,48 @@ body
       background-color: #292929
     &block
       width: 940px
+      display: flex
+      justify-content: space-between
+    &left
+      display: flex
+      flex-direction: column
+      justify-content: space-around
+      width: 250px
+      height: 100%
+      color: $white
+      font-size: 12px
+    &right
+      display: flex
+      flex-direction: column
+      justify-content: space-around
+      width: 250px
+      height: 100%
+      color: $white
+      font-size: 12px
+      text-align: end
+      &--
+        &num
+          font-family: $GothamPro-Bold
+          font-size: 18px
+        &desc
+          font-family: $GothamPro-Medium
+          font-size: 11px
+        &button
+          display: flex
+          flex-direction: column
+          align-self: center
+          align-items: flex-end
+          width: 100%
+          button
+            width: 158px
+            color: $white
+            border: 2px solid $white
+            font-size: 12px
+            font-family: $GothamPro-Medium
+            background-color: #00000000
+            padding: 10px 16px 10px 16px
+            cursor: pointer
+
 .contact_card
   height: 360px
   width: 380px
